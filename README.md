@@ -19,18 +19,10 @@ This program demonstrates how to navigate between two activities within the same
 **2. MainActivity:**
 \- Handles the main screen and initiates the navigation to the "News" activity.
 
-**3. newsScreen(view: View):**
-\- This method is called when the button is clicked in `MainActivity`.
-\- It creates an explicit intent with the following details:
-\- Target Class: `MainActivity2.class.java` - specifies the target activity to launch.
-\- Finally, it starts the activity using `startActivity(i)`.
 
-**4. MainActivity2:**
+**3. MainActivity2:**
 \- Handles the "News" screen and provides navigation back to `MainActivity`.
 
-**5. homeScreen(view: View):**
-\- This method is called when the button is clicked in `MainActivity2`.
-\- It creates an explicit intent similar to `newsScreen()` but targets `MainActivity.class.java` to navigate back.
 
 **Running the Application:**
 
